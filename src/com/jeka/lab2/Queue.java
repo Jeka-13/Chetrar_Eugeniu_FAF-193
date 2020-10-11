@@ -6,7 +6,7 @@ public class Queue {
     private boolean fixedsize; //chech if was used constructor whit param or without
     private int value;
     private int maxsize;
-    private int curIndex;
+    private int curIndex=0;
     private int delIndex = 1;
     private ArrayList<Box> box_list = new ArrayList<Box>();
 
