@@ -6,6 +6,7 @@ import java.util.Stack;
 public class Algorithm{
 
     public void start(String expression){
+
         int counter=0;
         for(int i=0; i<expression.length(); i++){
             char symbol = expression.charAt(i);
